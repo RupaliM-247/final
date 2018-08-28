@@ -1,0 +1,91 @@
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\GUI2.csprojResolveAssemblyReference.cache
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\Login.g.cs
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\MainWindow.g.cs
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\Registration.g.cs
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\App.g.cs
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\GUI2_MarkupCompile.cache
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\GUI2_MarkupCompile.lref
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\bin\Debug\GUI2.exe.config
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\bin\Debug\GUI2.exe
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\bin\Debug\GUI2.pdb
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\Login.baml
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\MainWindow.baml
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\Registration.baml
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\GUI2.g.resources
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\GUI2.Properties.Resources.resources
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\GUI2.csproj.GenerateResource.Cache
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\GUI2.exe
+c:\users\grad45\documents\visual studio 2017\Projects\GUI2\GUI2\obj\Debug\GUI2.pdb
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\bin\Debug\GUI2.exe.config
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\bin\Debug\GUI2.exe
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\bin\Debug\GUI2.pdb
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\GUI2.csprojResolveAssemblyReference.cache
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\Login.g.cs
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\MainWindow.g.cs
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\App.g.cs
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\GUI2_MarkupCompile.cache
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\GUI2_MarkupCompile.lref
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\Login.baml
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\MainWindow.baml
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\GUI2.g.resources
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\GUI2.Properties.Resources.resources
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\GUI2.csproj.GenerateResource.Cache
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\GUI2.exe
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\GUI2.pdb
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\Window1.g.cs
+C:\Users\Grad45\Documents\Visual Studio 2017\Projects\interface\GUI2\GUI2\obj\Debug\Window1.baml
+C:\Users\Grad45\Desktop\GUI2\GUI2\bin\Debug\GUI2.exe.config
+C:\Users\Grad45\Desktop\GUI2\GUI2\bin\Debug\GUI2.exe
+C:\Users\Grad45\Desktop\GUI2\GUI2\bin\Debug\GUI2.pdb
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\GUI2.csprojResolveAssemblyReference.cache
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\Login.g.cs
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\MainWindow.g.cs
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\Window1.g.cs
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\App.g.cs
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\GUI2_MarkupCompile.cache
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\GUI2_MarkupCompile.lref
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\Login.baml
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\MainWindow.baml
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\Window1.baml
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\GUI2.g.resources
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\GUI2.Properties.Resources.resources
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\GUI2.csproj.GenerateResource.Cache
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\GUI2.exe
+C:\Users\Grad45\Desktop\GUI2\GUI2\obj\Debug\GUI2.pdb
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\bin\Debug\GUI2.exe.config
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\bin\Debug\GUI2.exe
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\bin\Debug\GUI2.pdb
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\GUI2.csprojResolveAssemblyReference.cache
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\Login.g.cs
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\MainWindow.g.cs
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\Window1.g.cs
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\App.g.cs
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\GUI2_MarkupCompile.cache
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\GUI2_MarkupCompile.lref
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\Login.baml
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\MainWindow.baml
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\Window1.baml
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\GUI2.g.resources
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\GUI2.Properties.Resources.resources
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\GUI2.csproj.GenerateResource.Cache
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\GUI2.exe
+C:\Users\Grad45\Desktop\RL\GUI2\GUI2\obj\Debug\GUI2.pdb
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\bin\Debug\GUI2.exe.config
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\bin\Debug\GUI2.exe
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\bin\Debug\GUI2.pdb
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\GUI2.csprojAssemblyReference.cache
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\Login.g.cs
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\MainWindow.g.cs
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\Window1.g.cs
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\App.g.cs
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\GUI2_MarkupCompile.cache
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\GUI2_MarkupCompile.lref
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\Login.baml
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\MainWindow.baml
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\Window1.baml
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\GUI2.g.resources
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\GUI2.Properties.Resources.resources
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\GUI2.csproj.GenerateResource.cache
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\GUI2.csproj.CoreCompileInputs.cache
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\GUI2.exe
+C:\Users\81F500JKIN\Desktop\GUIrep\GUI2\obj\Debug\GUI2.pdb

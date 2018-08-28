@@ -1,0 +1,196 @@
+﻿<Window x:Class="GUI2.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI2"
+        mc:Ignorable="d"
+        Title="Registration"  SizeToContent="WidthAndHeight" >
+    <!--<ScrollViewer>
+        <Grid >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid Margin="-10,10,10,0"  VerticalAlignment="Top">
+                <Grid.Background>
+                    <ImageBrush ImageSource="C:\Users\Grad45\Desktop\23.jpg" Opacity="0.7"/>
+                </Grid.Background>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+
+                    <RowDefinition Height="*" />
+
+                   
+
+                </Grid.RowDefinitions>
+
+                <TextBlock  HorizontalAlignment="Left" Margin="67,0,0,0" x:Name ="errormessage" VerticalAlignment="Top"   OpacityMask="Crimson" Foreground="#FFE5572C"  TextWrapping="Wrap"/>
+
+                <TextBlock HorizontalAlignment="Left" Margin="34,37,0,0" Name="textBlockFirstname" Text="First Name:" VerticalAlignment="Top" TextWrapping="Wrap" />
+
+                <TextBlock  HorizontalAlignment="Left" Margin="436,37,0,0" Name="textBlockLastName" Text="Last Name:" VerticalAlignment="Top" Width="110" TextWrapping="Wrap" Grid.ColumnSpan="2" />
+
+                <TextBlock  HorizontalAlignment="Left" Margin="34,78,0,0" Name="textBlockEmailId" Text="EmailId" VerticalAlignment="Top" Width="110" TextWrapping="Wrap"/>
+
+                <TextBlock  HorizontalAlignment="Left" Margin="34,387,0,0" Name="textBlockUsername" Text="Username" VerticalAlignment="Top" Width="110" TextWrapping="Wrap" />
+
+                <TextBlock  HorizontalAlignment="Left" Margin="34,428,0,0" x:Name="textBlockPassword" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.509,0.783" TextWrapping="Wrap"><Run Text="Password"/><Run Text=":" /></TextBlock>
+                <Grid Grid.ColumnSpan="2" Margin="24,0,-24,0" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+
+                        <ColumnDefinition Width ="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock x:Name="dob" Text="Date of Birth" Grid.Column="0"  Margin="10,121,114,0"  VerticalAlignment="Top" RenderTransformOrigin="0.49,-0.532" TextWrapping="Wrap"/>
+
+                    <Calendar Height="172 " Margin="145,121,411,0"  VerticalAlignment="Top" SelectedDatesChanged="Calendar_SelectedDatesChanged"  Grid.ColumnSpan="2" />
+                    <Button Content="Submit" Height="25" HorizontalAlignment="Left" Margin="78,522,0,0" x:Name="Submit" VerticalAlignment="Top" Width="76" Click="Submit_Click" RenderTransformOrigin="-0.257,2.494"  />
+
+                </Grid>
+
+
+
+
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="165,37,0,0" Name="textBoxFirstName" VerticalAlignment="Top" Width="149" TextWrapping="Wrap" />
+
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="9,37,0,0" Name="textBoxLastName" VerticalAlignment="Top" Width="149" Grid.Column="1" TextWrapping="Wrap" />
+
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="165,78,0,0" Name="textBoxEmail" VerticalAlignment="Top" Width="149"  TextWrapping="Wrap" />
+
+
+
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="165,387,0,0" Name="textBoxUsername" VerticalAlignment="Top" Width="149"  TextWrapping="Wrap"/>
+
+                
+
+                <PasswordBox Height="23" HorizontalAlignment="Left" Margin="165,428,0,0" Name="passwordBox" VerticalAlignment="Top" Width="149"   />
+
+                <Button Content="Reset" Height="25" HorizontalAlignment="Right" Margin="0,522,144.5,0" Name="reset" VerticalAlignment="Top" Width="77" Click="reset_Click" />
+
+                <Button Content="Cancel"  HorizontalAlignment="Right" Margin="0,522,117,0" Name="Cancel" Width="77" Click="Cancel_Click" RenderTransformOrigin="0.463,1.204" Height="25"  VerticalAlignment="Top" Grid.ColumnSpan="2" />
+                <ComboBox x:Name="securityQues" HorizontalAlignment="Left" Margin="183,466,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="comboBox_SelectionChanged">
+                    <ComboBoxItem >What is your pet's name</ComboBoxItem>
+                    <ComboBoxItem>Which is your favourite cuisine</ComboBoxItem>
+                    <ComboBoxItem>What is your favourite color</ComboBoxItem>
+                    <ComboBoxItem>In which city were you born</ComboBoxItem>
+                </ComboBox>
+                <TextBlock Height="35" HorizontalAlignment="Left" Margin="34,466,0,0" x:Name="securityQuestion" VerticalAlignment="Top" Width="137" RenderTransformOrigin="0.509,0.783" Text="Choose security question"  TextWrapping="Wrap"/>
+                <TextBlock Height="23" HorizontalAlignment="Left" Margin="436,465,0,0" x:Name="securityAnswer" VerticalAlignment="Top" Width="110" RenderTransformOrigin="3.001,-1.039" Text="Your answer"  TextWrapping="Wrap" Grid.ColumnSpan="2" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="37,465,0,0" x:Name="textBoxSecurity" VerticalAlignment="Top" Width="121" Grid.Column="1"  TextWrapping="Wrap" TextChanged="textBoxSecurity_TextChanged" />
+                <TextBlock x:Name="gender" HorizontalAlignment="Left" Margin="444,121,0,0" Text="Gender " VerticalAlignment="Top" RenderTransformOrigin="-0.011,0.461" Height="19" Width="46"  TextWrapping="Wrap"/>
+                <RadioButton x:Name="male" Content="M&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="10,121,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.204,-4.24" Checked="radioButton_Checked"/>
+                <RadioButton x:Name="female" Content="F&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="64,121,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.204,-4.24" Checked="radioButton_Checked"/>
+                <RadioButton x:Name="other" Content="Other&#xD;&#xA;" Grid.Column="1" HorizontalAlignment="Left" Margin="112,121,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.204,-4.24" Checked="radioButton_Checked"/>
+                <TextBlock  TextWrapping="Wrap" Height="23" HorizontalAlignment="Left" Margin="34,307,0,0" x:Name="Phone" Text="Phone Number" VerticalAlignment="Top" Width="110"  />
+                <TextBlock  TextWrapping="Wrap" Height="23" HorizontalAlignment="Left" Margin="34,347,0,0" x:Name="Occupation" Text="Occupation" VerticalAlignment="Top" Width="110" RenderTransformOrigin="0.496,-0.503"  />
+                <TextBox  TextWrapping="Wrap" Height="23" HorizontalAlignment="Left" Margin="165,347,0,0" x:Name="textBoxOccupation" VerticalAlignment="Top" Width="149" />
+                <TextBox  TextWrapping="Wrap" Height="23" HorizontalAlignment="Left" Margin="165,307,0,0" x:Name="textBoxPhone" VerticalAlignment="Top" Width="149" />
+                <Label   x:Name="label" Content="Registration" FontWeight="Bold" FontSize="18" HorizontalAlignment="Left" Margin="24,2,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.52,-0.174" Width="120" Height="35"/>
+
+            </Grid>
+
+
+        </Grid>
+    </ScrollViewer>-->
+
+
+    <Grid>
+
+        <!--<Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Grad45\Desktop\23.jpg" Opacity="1"/>
+        </Grid.Background>-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+
+        </Grid.RowDefinitions>
+
+        <Label   x:Name="label" Content="Registration" FontWeight="Bold" FontSize="18" HorizontalAlignment="Center"  VerticalAlignment="Top" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+        <TextBlock HorizontalAlignment="Left"  Name="textBlockFirstname" Text="First Name:"   Grid.Row="1" Grid.Column="0"  Margin="20,0,0,0"/>
+
+        <TextBlock  HorizontalAlignment="Left"  Name="textBlockLastName" Text="Last Name:"   Grid.Row="1" Grid.Column="2"  Margin="20,0,10,0"/>
+
+        <TextBlock  HorizontalAlignment="Left" Name="textBlockEmailId" Text="EmailId"  Grid.Row="2" Grid.Column="0"  Margin="20,0,0,0"/>
+
+        <TextBox VerticalAlignment="Top" x:Name="textBoxFirstName"  Grid.Row="1" Grid.Column="1"  Margin="0,5,0,0"/>
+
+        <TextBox   VerticalAlignment="Top" x:Name="textBoxLastName"  Grid.Row="1" Grid.Column="3"   Margin="0,5,0,0" />
+
+        <TextBox  VerticalAlignment="Top" x:Name="textBoxEmail"  Grid.Row="2" Grid.Column="1"   Margin="0,5,0,0"  />
+        <TextBlock  HorizontalAlignment="Left" Grid.Row="2" Grid.Column="2" x:Name ="errormessage" VerticalAlignment="Top"   OpacityMask="Crimson" Foreground="#FFE5572C"  TextWrapping="Wrap"/>
+
+        <TextBlock x:Name="dob" Text="Date of Birth"  TextWrapping="Wrap" Grid.Row="3" Grid.Column="0"  Margin="20,0,0,0"/>
+
+        <Calendar  SelectedDatesChanged="Calendar_SelectedDatesChanged" Grid.Row="3" Grid.Column="1" />
+
+        <TextBlock x:Name="gender"  Text="Gender "   TextWrapping="Wrap" Grid.Row="3" Grid.Column="2"  Margin="20,0,0,0"/>
+        <Grid Grid.Row="3" Grid.Column="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+
+            </Grid.ColumnDefinitions>
+        <RadioButton x:Name="male" Content="M" Checked="radioButton_Checked"  Grid.Column="0" />
+        <RadioButton x:Name="female" Content="F" Checked="radioButton_Checked" Grid.Column="1" />
+        <RadioButton x:Name="other" Content="Others"  Checked="radioButton_Checked"  Grid.Column="2" />
+        </Grid>
+        <TextBlock  TextWrapping="Wrap"  x:Name="Phone" Text="Phone Number" Grid.Row="4" Grid.Column="0"  Margin="20,0,0,0"  />
+        <TextBlock  TextWrapping="Wrap" x:Name="Occupation" Text="Occupation" Grid.Row="5" Grid.Column="0"  Margin="20,0,0,0" />
+        <TextBox  TextWrapping="Wrap" VerticalAlignment="Top" x:Name="textBoxOccupation" Grid.Row="5" Grid.Column="1"  Margin="0,5,0,0"/>
+        <TextBox  TextWrapping="Wrap" VerticalAlignment="Top" x:Name="textBoxPhone" Grid.Row="4" Grid.Column="1" Margin="0,5,0,0" />
+
+        <TextBlock  Name="textBlockUsername" Text="Username" TextWrapping="Wrap" Grid.Row="6" Grid.Column="0"  Margin="20,0,0,0" />
+
+
+        <TextBlock  x:Name="textBlockPassword" VerticalAlignment="Top" Grid.Row="7" Grid.Column="0"  TextWrapping="Wrap"  Margin="20,0,0,0"><Run Text="Password"/><Run Text=":" /></TextBlock>
+
+        <TextBox  Name="textBoxUsername" VerticalAlignment="Top" TextWrapping="Wrap" Grid.Row="6" Grid.Column="1" Margin="0,5,0,0"/>
+
+        <TextBlock  HorizontalAlignment="Left" Grid.Row="6" Grid.Column="2" x:Name ="errormessage1" VerticalAlignment="Top"   OpacityMask="Crimson" Foreground="#FFE5572C"  TextWrapping="Wrap"/>
+
+        <PasswordBox  Name="passwordBox" VerticalAlignment="Top"  Grid.Row="7" Grid.Column="1"  Margin="0,5,0,0" />
+        <TextBlock  HorizontalAlignment="Left" Grid.Row="7" Grid.Column="2" x:Name ="errormessage2" VerticalAlignment="Top"   OpacityMask="Crimson" Foreground="#FFE5572C"  TextWrapping="Wrap"/>
+        <TextBlock  x:Name="securityQuestion" VerticalAlignment="Top"  Text="Choose security question"  Margin="20,5,0,0" Grid.Row="8" Grid.Column="0" TextWrapping="Wrap"/>
+        <ComboBox x:Name="securityQues" SelectionChanged="comboBox_SelectionChanged" Grid.Row="8" Grid.Column="1" Margin="0,5,0,0">
+            <ComboBoxItem >What is your pet's name</ComboBoxItem>
+            <ComboBoxItem>Which is your favourite cuisine</ComboBoxItem>
+            <ComboBoxItem>What is your favourite color</ComboBoxItem>
+            <ComboBoxItem>In which city were you born</ComboBoxItem>
+        </ComboBox>
+
+        <TextBlock  x:Name="securityAnswer" Text="Your answer"  TextWrapping="Wrap" Grid.Row="8" Grid.Column="2" Margin="20,5,0,0"/>
+        <TextBox  x:Name="textBoxSecurity" VerticalAlignment="Top"  TextWrapping="Wrap" Grid.Row="8" Grid.Column="3" Margin="0,5,0,0"/>
+
+        <Button Content="Submit"  x:Name="Submit" VerticalAlignment="Top" Click="Submit_Click" Grid.Row="9" Grid.Column="0" Margin="0,5,0,5" />
+
+        <Button Content="Reset"  x:Name="reset" VerticalAlignment="Top"  Click="reset_Click" Grid.Row="9" Grid.Column="1" Margin="20,5,0,5"/>
+
+        <Button Content="Cancel"   x:Name="Cancel" VerticalAlignment="Top" Click="Cancel_Click"  Grid.Row="9" Grid.Column="2" Margin="20,5,0,5"  />
+    </Grid>
+    
+    
+    
+    
+
+</Window>
